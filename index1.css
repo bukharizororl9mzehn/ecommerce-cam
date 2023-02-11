@@ -1,0 +1,48 @@
+body {
+    font-size: 28px;
+    background-color: #746161b4;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #721e1e67;
+  }
+  body, html {
+      height: 100%;
+      margin: 0;
+     
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    
+  
+  

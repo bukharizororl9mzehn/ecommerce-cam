@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #050505ee;
+    
+    
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.title{
+    margin-top: 3rem;
+    text-align: center;
+    position: relative;
+    background-color: #644e4e;
+}
+.title h1{
+    font-weight: 500;
+    opacity: 0.8;
+}
+.product{
+    margin: 3rem 0;
+}
+.product-container{
+   
+    display: flex;  
+    flex-wrap: wrap;    
+    align-items: stretch;
+    justify-content: center;
+   transition: all 0.4s ease;
+}
+.product-item{
+    width: calc(20% - 16px);
+    margin: 8px;
+    background-color: #48d12d;
+    max-width: 300px;
+}
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+.product-item img{
+    width: 100%;
+    display: block;
+}
+.product-img div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 0.8rem;
+}
+.add-btn{
+    width: 75%;
+    background-color: transparent;
+    border: 2px solid #0c0b0ada;
+    color: #151618e1;
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.product-content{
+    padding: 0.5rem 1rem;   
+    transition: all 0.4s ease;
+}
+.book-title{
+    display: block;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0.2rem 0;
+}
+.camera{
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.9;
+    text-transform: capitalize;
+}
+.author span{
+    font-weight: 400;
+    color: rgb(63, 17, 136);
+}
+.product-content div{
+    
+    display: flex;
+   align-items: center;
+  justify-content: space-between;
+}
+.checked {
+    color: orange;
+  }
+.price{
+    color: #ff1616;
+    display: flex;
+}
+
+
